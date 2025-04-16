@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <h1>Service IDs</h1>
+    <table class="table">
+        <tr>
+            <th>Service Type</th>
+            <th>ID</th>
+        </tr>
+        <tr>
+            <td>Singleton</td>
+            <td>@ViewBag.Singleton</td>
+        </tr>
+        <tr>
+            <td>Transient 1</td>
+            <td>@ViewBag.Transient</td>
+        </tr>
+        <tr>
+            <td>Transient 2</td>
+            <td>@ViewBag.Transient2</td>
+        </tr>
+        <tr>
+            <td>Scoped 1</td>
+            <td>@ViewBag.Scoped</td>
+        </tr>
+        <tr>
+            <td>Scoped 2</td>
+            <td>@ViewBag.Scoped2</td>
+        </tr>
+    </table>
+</div>
